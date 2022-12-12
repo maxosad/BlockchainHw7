@@ -15,7 +15,7 @@ for line in f:
     thirdName = spl[2]
     fio = firstName.join([secondName,thirdName,parameter])
     fioByte = bytes(fio, 'utf-8')
-    hash_object = hashlib.sha3_256(fioByte)
+    hash_object = hashlib.sha3_512(fioByte)
     hex_dig = hash_object.hexdigest()
     h = int(hex_dig,16)
     ticket = h%numbilets + 1

@@ -1,5 +1,5 @@
-Ivanov Ivan Ivanovich
-Petrov Petr Petrovich
-Markov Mark Markovich
-Kirillov Kirill Kirillovich
-Vladimirov Vladimir Vladimirovich
+Ivanov Ivan 
+Petrov Petr 
+Markov Mark 
+Kirillov Kirill 
+Vladimirov Vladimir 

@@ -12,12 +12,12 @@ for line in f:
     spl = line.split()
     firstName = spl[0]
     secondName = spl[1]
-    thirdName = spl[2]
-    fio = firstName.join([secondName,thirdName,parameter])
+
+    fio = firstName.join([secondName,parameter])
     fioByte = bytes(fio, 'utf-8')
     hash_object = hashlib.sha3_512(fioByte)
     hex_dig = hash_object.hexdigest()
     h = int(hex_dig,16)
     ticket = h%numbilets + 1
-    print(f"{firstName} {secondName} {thirdName} {ticket}")
+    print(f"{firstName} {secondName} {ticket}")
 
